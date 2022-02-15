@@ -5,7 +5,7 @@ import AuthProvider from "./components/AuthProvider";
 
 function App() {
   return (
-    <div>
+    <div className="container_app">
       <AuthProvider>
         <RouterApp />
       </AuthProvider>
