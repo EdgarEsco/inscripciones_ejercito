@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 
 export default function Card(props) {
 
-  console.log(props, "hola")
   const navigate = useNavigate();
 
   
@@ -22,8 +21,8 @@ export default function Card(props) {
       <div className="card-body">
         <img
           src={props.img}
-          alt=""
-          className="card-img-top"
+          alt={props.alt}
+          className=""
         />
         <p>{props.texto}</p>
       </div>

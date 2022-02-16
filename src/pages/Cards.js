@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../components/Card";
 import Image1 from "../assets/luismi_cadete.png";
 import Image2 from "../assets/ejercito_mex.jpg";
 import "./cards.css";
@@ -12,7 +12,8 @@ export default function Cards() {
       img: Image1,
       url: "/inscripcion_form",
       alt: "imagen del alumnos",
-      texto: "Para inicar tu trámite de inscripción escolar da click en el boton",
+      texto:
+        "Para inicar tu trámite de inscripción escolar da click en el boton",
     },
     {
       id: 2,
@@ -20,12 +21,12 @@ export default function Cards() {
       img: Image2,
       url: "/login",
       alt: "imagen de administrativo",
-      texto:"Inicia sesión para ingresar al sistema",
+      texto: "Inicia sesión para ingresar al sistema",
     },
   ];
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       {cardsInfo.map((card) => {
         return (
           <div className="container_card">

@@ -1,19 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  
-}
-.container_app{
-  height: 100vh;
-  background: -webkit-linear-gradient(10deg, rgb(6, 6, 11), rgb(0, 74, 106));
-  background: linear-gradient(10deg, rgb(6, 6, 11), rgb(0, 74, 106));
-  
-}
-
-
-
-@media screen and (max-width: 650px) {
-  .container_app{
-    height: 100%;
-  }
 }
